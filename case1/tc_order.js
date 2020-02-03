@@ -5,8 +5,8 @@
    Tutorial 10
    Case Problem 1
   
-   Author: 
-   Date:   
+   Author: Samuel Harris
+   Date:   02/03/20
      
    Filename: tc_order.js  
 
@@ -16,4 +16,12 @@
    The itemQty array contains the quantity ordered of each item
    
 */
+
+var item = ["10582","23015","41807","10041"];
+
+var itemDescription = ["1975 Green Bay FootBall (signed), Item 10582", "Tom Landry 1955 Fottball Card (unsigned), Item 23015", "1916 Army-Navy Game, Framed Photo (signed), Item 41807", "Protective Card Sheets, Item 10041"];
+
+var itemPrice = [149.93, 89.98, 334.93, 22.67];
+
+var itemQty = [1,1,1,4];
 
