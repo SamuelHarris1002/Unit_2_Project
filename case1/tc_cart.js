@@ -22,5 +22,9 @@ for(var i = 0; i < item.length; i++){
 
    var itemCost = itemPrice[i]*itemQty[i];
 
-   cartHTML += "<td>$cost</td></tr>"
+   cartHTML += "<td>$" + itemcost + "</td></tr>";
+
+   itemCost += orderTotal;
+
 }
+
